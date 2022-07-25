@@ -1,12 +1,18 @@
 # 基于用户性格模型的线上租房平台
 **1.模块架构**
 _此项目是基于B/S架构，使用Java EE开发，框架使用SpringBoot2.2版本，整个网站的系统主要模式是使用了MVC架构模式_。
+
+
 **2.算法实现**
 _此算法根据欧式距离来进行设计，欧式距离的相似度是最常见的距离度量，衡量的是多维空间中两个点之间的绝对距离_。
-理论公式为：![捕获](https://user-images.githubusercontent.com/70590957/180749690-22c7bd74-4ec4-4800-b746-d95806917c81.PNG)
+
+
+理论公式为：![捕获](https://user-images.githubusercontent.com/70590957/180749690-22c7bd74-4ec4-4800-b746-d95806917c81.PNG
+
+
+
 _程序实现如下：_
-//-----------------------------欧式距离方法-------------------------------
- public double euclidean (double []x,double []y ){
+public double euclidean (double []x,double []y ){
 int length  = x.length;
  double sum = 0;
 for (int i = 0; i < length; i++){
