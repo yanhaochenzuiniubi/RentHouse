@@ -13,7 +13,7 @@ _此算法根据欧式距离来进行设计，欧式距离的相似度是最常�
 
 
 _程序实现如下：_
-'''public double euclidean (double []x,double []y ){
+'''java public double euclidean (double []x,double []y ){
 int length  = x.length;
  double sum = 0;
 for (int i = 0; i < length; i++){
